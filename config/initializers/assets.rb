@@ -13,22 +13,14 @@ Rails.application.config.assets.paths << Rails.root.join('vendor','src','img')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','css')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','js')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','bootstrap','css')
-Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','bootstrap','js')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','font-awesome','css')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','font-awesome','fonts')
-
-Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','jquery')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','jquery-easing')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','simple-line-icons')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','simple-line-icons','css')
 Rails.application.config.assets.paths << Rails.root.join('vendor','src','vendor','simple-line-icons','fonts')
-
-
 Rails.application.config.assets.precompile += %w[*.png *.jpg *.gif *.eot *.svg *.ttf *.woff *.otf *.woff2 *.js]
 Rails.application.config.assets.precompile += %w( new-age.css)
-Rails.application.config.assets.precompile += %w( bootstrap.css )
-Rails.application.config.assets.precompile += %w( font-awesome.css )
-Rails.application.config.assets.precompile += %w( simple-line-icons.css)
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
